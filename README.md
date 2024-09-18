@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/nflakes/social-links-profile)
+- Live Site URL: [Live Site](https://nflakes.github.io/social-links-profile/)
 
 
 ### Built with
