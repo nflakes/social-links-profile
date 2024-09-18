@@ -1,0 +1,127 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 1440px;
+    min-height: 100vh;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 8%);
+}
+
+img {
+    object-fit: cover;
+    border-radius: 100%;
+    max-width: 88px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.div-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 40px;
+    width: 24rem;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.name-container {
+    font-size: 1.56rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+.loc-container {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: hsl(75, 94%, 57%);
+}
+
+.bio-container {
+    margin-bottom: 1.5rem;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 18px;
+}
+
+.first-box, .second-box, .third-box, .fourth-box, .fifth-box {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 20%);
+}
+
+.first-box:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    color: hsl(0, 0%, 20%);;
+    background-color: hsl(75, 94%, 57%);;
+}
